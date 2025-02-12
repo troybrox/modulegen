@@ -1,0 +1,9 @@
+//
+//  _file_name_CoordinatorProtocol.swift
+//
+//  _module_name_
+//
+
+import common_utils
+
+public protocol _file_name_CoordinatorProtocol: CoordinatorProtocol { }

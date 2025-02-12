@@ -1,0 +1,28 @@
+//
+//  SUI_file_name_View.swift
+//
+//  _module_name_
+//
+
+import common_ui
+import shared
+import SwiftUI
+
+extension _file_name_ViewModel: ObservableObject {}
+
+struct SUI_file_name_View: View {
+
+    @ObservedObject var viewModel: _file_name_ViewModel
+
+    // TODO: implement
+    // @State var details: Ui_file_name_Details?
+
+    public var body: some View {
+        VStack() {
+            // TODO: implement
+        }
+        .onReceive(createPublisher(viewModel.state), perform: { state in
+            // TODO: implement
+        })
+    }
+}

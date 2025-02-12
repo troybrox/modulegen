@@ -1,0 +1,7 @@
+//
+//  _file_name_ViewControllerProtocol.swift
+//
+//  _module_name_
+//
+
+public protocol _file_name_ViewControllerProtocol: AnyObject where Self: UIViewController {}

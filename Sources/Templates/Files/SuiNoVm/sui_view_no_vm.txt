@@ -1,0 +1,16 @@
+//
+//  SUI_file_name_View.swift
+//
+//  _module_name_
+//
+
+import SwiftUI
+
+struct SUI_file_name_View: View {
+
+    public var body: some View {
+        VStack() {
+            // TODO: implement
+        }
+    }
+}

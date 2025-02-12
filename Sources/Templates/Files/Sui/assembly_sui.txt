@@ -1,0 +1,26 @@
+//
+//  _file_name_Assembly.swift
+//
+//  _module_name_
+//
+
+import Swinject
+import shared
+
+final class _file_name_Assembly: Assembly {
+
+    func assemble(container: Container) {
+        container.register(_file_name_ViewModel.self) { _ in
+            _file_name_Di()._camel_case_prefix_ViewModel()
+        }
+
+        container.register(_file_name_ViewControllerProtocol.self) { resolver in
+            let viewModel = resolver.resolve(_file_name_ViewModel.self)
+            let coordinator = resolver.resolve(_file_name_CoordinatorProtocol.self)
+            return _file_name_ViewController(viewModel: viewModel, coordinator: coordinator)
+        }.initCompleted { resolver, controller in
+            let coordinator = resolver.resolve(_file_name_CoordinatorProtocol.self)
+            coordinator?.baseController = controller
+        }
+    }
+}

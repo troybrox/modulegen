@@ -1,0 +1,20 @@
+//
+//  _file_name_Assembly.swift
+//
+//  _module_name_
+//
+
+import Swinject
+
+final class _file_name_Assembly: Assembly {
+
+    func assemble(container: Container) {
+        container.register(_file_name_ViewControllerProtocol.self) { resolver in
+            let coordinator = resolver.resolve(_file_name_CoordinatorProtocol.self)
+            return _file_name_ViewController(coordinator: coordinator)
+        }.initCompleted { resolver, controller in
+            let coordinator = resolver.resolve(_file_name_CoordinatorProtocol.self)
+            coordinator?.baseController = controller
+        }
+    }
+}

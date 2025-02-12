@@ -1,0 +1,116 @@
+{
+    "module": {
+        "name": null,
+        "folders": [
+            {
+                "name": null,
+                "folders": [
+                    {
+                        "name": "Classes",
+                        "folders": [],
+                        "files": [
+                            {
+                                "name": "ReplaceMe",
+                                "extension": "swift",
+                                "type": "replace_me"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Source",
+                        "folders": [
+                            {
+                                "name": "Api",
+                                "folders": [
+                                    {
+                                        "name": "Coordinator",
+                                        "folders": [],
+                                        "files": [
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "coordinator_protocol"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Factory",
+                                        "folders": [],
+                                        "files": [
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "factory"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "View",
+                                        "folders": [],
+                                        "files": [
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "controller_protocol"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": []
+                            },
+                            {
+                                "name": "Impl",
+                                "folders": [
+                                    {
+                                        "name": "Assembly",
+                                        "folders": [],
+                                        "files": [
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "assembly_no_vm"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "View",
+                                        "folders": [],
+                                        "files": [
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "controller_no_vm"
+                                            },
+                                            {
+                                                "name": null,
+                                                "extension": "swift",
+                                                "type": "uikit_view"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": []
+                            }
+                        ],
+                        "files": []
+                    }
+                ],
+                "files": []
+            }
+        ],
+        "files": [
+            {
+                "name": "README",
+                "extension": "md",
+                "type": "readme"
+            }
+        ]
+    },
+    "files": [
+        {
+            "name": null,
+            "extension": "podspec",
+            "type": "podspec"
+        }
+    ]
+}

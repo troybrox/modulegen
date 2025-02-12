@@ -1,0 +1,17 @@
+//
+//  _file_name_ModuleFactory.swift
+//
+//  _module_name_
+//
+
+import common_utils
+import Swinject
+
+public struct _file_name_ModuleFactory: ModuleFactoryProtocol {
+
+    public init() {}
+
+    public func makeAssembly() -> Assembly {
+        return _file_name_Assembly()
+    }
+}

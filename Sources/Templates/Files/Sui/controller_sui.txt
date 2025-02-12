@@ -1,0 +1,34 @@
+//
+//  _file_name_ViewController.swift
+//
+//  _module_name_
+//
+
+import common_ui
+import shared
+
+final class _file_name_ViewController: BaseSUIVmViewController<_file_name_ViewModel, SUI_file_name_View>,
+_file_name_ViewControllerProtocol {
+
+    private let coordinator: _file_name_CoordinatorProtocol
+
+    init(
+        viewModel: _file_name_ViewModel?,
+        coordinator: _file_name_CoordinatorProtocol?
+    ) {
+        guard let viewModel, let coordinator
+        else { fatalError("_file_name_ViewControllerProtocol init") }
+        self.coordinator = coordinator
+        super.init(
+            viewModel: viewModel,
+            mainView: SUI_file_name_View(
+                viewModel: viewModel
+            )
+        )
+    }
+
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("_file_name_ViewController has not been implemented")
+    }
+}

@@ -1,0 +1,16 @@
+Pod::Spec.new do |s|
+  s.name          = '_module_name_'
+  s.version       = '0.1.0'
+  s.summary       = 'A short description'
+  s.homepage      = 'Link to the module homepage'
+  s.license       = ''
+  s.author        = ''
+  s.source        = { :http=> ''}
+
+  s.ios.deployment_target = '15.0'
+  s.swift_version = '5.0'
+  s.source_files = '_module_name_/_module_name_/**/*'
+  
+  s.dependency 'common-utils', '~> 0.1.0'
+  s.dependency 'common-ui', '~> 0.1.0'
+end
